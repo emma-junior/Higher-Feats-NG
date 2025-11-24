@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Playfair_Display, Mulish } from "next/font/google";
 import "./globals.css";
+import ScrollNavHandler from "./hooks/ScrollNavHandler";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { ReactLenis } from "./utils/lenis";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const mulish = Mulish({
+  variable: "--font-mulish",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const PlayfairDisplay = Playfair_Display({
+  variable: "--font-playfair-display",
   subsets: ["latin"],
 });
 
@@ -24,11 +28,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <ReactLenis root>
+        <body className={`${mulish.variable} ${PlayfairDisplay.variable}`}>
+          <ScrollNavHandler />
+          <Navbar />
+          <div className="mt-16">{children}</div>
+          <Footer />
+        </body>
+      </ReactLenis>
     </html>
   );
 }
