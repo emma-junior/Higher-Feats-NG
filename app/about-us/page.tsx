@@ -1,3 +1,5 @@
+import { aboutus, aboutusType } from "../data/data";
+
 export default function About() {
   return (
     <section className="flex flex-col items-center py-28 space-y-28">
@@ -19,7 +21,35 @@ export default function About() {
           </div>
         </>
       </div>
-      <div className="h-[300px] w-full bg-[#f1f3f4]"></div>
+      <div className="py-24 w-full bg-[#f1f3f4] flex justify-center">
+        <div className="w-[85%] flex items-stretch">
+          <div className="w-[50%] grid grid-cols-2">
+            {aboutus.map((about: aboutusType) => (
+              <div
+                key={about.serialNum}
+                className={`w-80 p-10 space-y-3.5 ${
+                  about.serialNum === "01" ? "" : "bg-white"
+                }`}
+              >
+                <p className="text-sm text-primary-color">{about.serialNum}</p>
+                <p className="font-mulish text-2xl font-semibold text-primary-dark">
+                  {about.topic}
+                </p>
+                <p className="font-mulish text-primary-dark text-base">
+                  {about.content}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="w-[50%] flex h-[720px] -ml-1">
+            <img
+              className="h-full w-full object-cover"
+              src="http://testsite.local/wp-content/uploads/2024/06/MG_6618-1-scaled.jpg"
+              alt="founder"
+            />
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

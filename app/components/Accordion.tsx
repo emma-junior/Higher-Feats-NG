@@ -1,8 +1,8 @@
 "use client";
 
 import { useRef } from "react";
-import { faqType } from "./Faq";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { faqType } from "../data/data";
 
 interface AccordionItemProps {
   item: faqType;

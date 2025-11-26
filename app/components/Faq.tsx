@@ -4,12 +4,6 @@ import { useState } from "react";
 import Accordion from "./Accordion";
 import { faq } from "../data/data";
 
-export interface faqType {
-  id: number;
-  question: string;
-  answer: string;
-}
-
 const Faq = () => {
   const [active, setActive] = useState<number | null>(null);
 
