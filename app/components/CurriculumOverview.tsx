@@ -24,8 +24,8 @@ const curriculumCard = [
 const CurriculumOverview = () => {
   return (
     <div className="w-[85%]">
-      <div className="w-[70%] space-y-5">
-        <h2 className="font-playfair text-primary-color text-6xl leading-16">
+      <div className="w-full lg:w-[70%] space-y-5">
+        <h2 className="font-playfair text-primary-color text-4xl md:text-5xl lg:text-6xl leading-12 md:leading-16">
           Curriculum Overview
         </h2>
         <p className="font-mulish text-lg text-primary-dark">
@@ -34,7 +34,7 @@ const CurriculumOverview = () => {
           stage of their journey.
         </p>
       </div>
-      <div className="md:flex justify-between mt-12">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12 ">
         {curriculumCard.map((card, index) => {
           return <CurriculumOverviewCard card={card} key={index} />;
         })}

@@ -1,10 +1,10 @@
 const LearningBeginsWithUS = () => {
   return (
-    <div className="w-[70%] flex justify-between">
-      <h1 className="w-[40%] font-playfair text-primary-color text-6xl leading-16">
+    <div className="w-[85%] lg:w-[70%] md:flex justify-between">
+      <h1 className=" w-[90%] md:w-[30%] lg:w-[40%] font-playfair text-primary-color text-4xl md:text-5xl lg:text-6xl leading-12 md:leading-16 mb-5">
         Learning Begins With Us
       </h1>
-      <div className="w-[50%] space-y-5">
+      <div className="w-full md:w-[60%] lg:w-[50%] space-y-5">
         <p className="font-mulish text-lg text-primary-dark">
           At HigherFeats NG, we believe that education is the cornerstone of a
           brighter future. Our mission is to empower students, teachers, and
@@ -21,7 +21,7 @@ const LearningBeginsWithUS = () => {
           equipped with the knowledge and real-world skills that take them way
           ahead in the industry they may serve.
         </p>
-        <button className="bg-primary-color mt-5 py-5 px-9 text-white text-xl font-mulish font-semibold rounded-xl">
+        <button className="bg-primary-color mt-5 py-3 px-5 md:py-4 md:px-7 lg:py-5 lg:px-9 text-white text-xl font-mulish font-semibold rounded-xl">
           Know More About Us
         </button>
       </div>

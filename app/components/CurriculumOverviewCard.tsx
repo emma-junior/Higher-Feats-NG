@@ -1,6 +1,6 @@
 const CurriculumOverviewCard = ({ card }: any) => {
   return (
-    <div className="w-[31%]">
+    <div className="">
       <img
         className="w-full h-64 rounded-xl"
         src={`/assets/${card.pic}`}

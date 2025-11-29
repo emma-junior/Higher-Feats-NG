@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="flex flex-col items-center py-28 space-y-28">
+      <div className="flex flex-col items-center py-20 space-y-20 md:py-28 md:space-y-28">
         <LearningBeginsWithUS />
         <CurriculumOverview />
         <Faq />

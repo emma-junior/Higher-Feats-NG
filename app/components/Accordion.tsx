@@ -17,7 +17,7 @@ const Accordion = ({ item, active, handleToggle }: AccordionItemProps) => {
     <li className="border-b-solid border-b py-5">
       <div
         onClick={() => handleToggle(item.id)}
-        className="flex justify-between"
+        className="flex justify-between items-center"
       >
         <p className="font-mulish text-lg font-semibold text-primary-dark">
           {item.question}

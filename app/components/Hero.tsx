@@ -46,11 +46,11 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
-      <div className="absolute inset-0 flex flex-col top-[65%] left-[7%] w-[40%]">
-        <h1 className="text-white text-4xl font-bold font-mulish">
+      <div className="absolute inset-0 flex flex-col top-[60%] lg:top-[65%] left-[7%] w-[70%] md:w-[50%] lg:w-[40%]">
+        <h1 className="text-white text-2xl md:text-4xl font-bold font-mulish">
           Business consulting, with a difference.
         </h1>
-        <p className="font-mulish text-white mt-4">
+        <p className="font-mulish text-white mt-4 text-sm md:text-base">
           Whether you’re an international corporation or a small startup, our
           agile approach to problem-solving and strategic planning will help you
           to scale new heights and shape change
