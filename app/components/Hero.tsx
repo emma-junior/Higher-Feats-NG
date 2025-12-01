@@ -36,7 +36,7 @@ const Hero = () => {
     <div className="  w-full">
       <div className="video-container w-full h-[90vh] video-one ">
         <video
-          src="/assets/hero-vid.mp4"
+          src="/assets/hero-vid-one.mp4"
           autoPlay
           loop
           muted

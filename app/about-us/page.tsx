@@ -44,7 +44,7 @@ export default function About() {
           <div className="lg:w-[50%] flex h-[500px] md:h-[720px] -ml-1">
             <img
               className="h-full w-full object-cover"
-              src="http://testsite.local/wp-content/uploads/2024/06/MG_6618-1-scaled.jpg"
+              src="/assets/founder.jpg"
               alt="founder"
             />
           </div>
