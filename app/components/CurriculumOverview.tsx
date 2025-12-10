@@ -29,9 +29,9 @@ const CurriculumOverview = () => {
           Curriculum Overview
         </h2>
         <p className="font-mulish text-lg text-primary-dark">
-          At HigherFeats NG, we offer a comprehensive suite of services designed
-          to support students, teachers, and educational institutions at every
-          stage of their journey.
+          At HigherFeats Africa, we offer a comprehensive suite of services
+          designed to support students, teachers, and educational institutions
+          at every stage of their journey.
         </p>
       </div>
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12 ">

@@ -6,8 +6,8 @@ const LearningBeginsWithUS = () => {
       </h1>
       <div className="w-full md:w-[60%] lg:w-[50%] space-y-5">
         <p className="font-mulish text-lg text-primary-dark">
-          At HigherFeats NG, we believe that education is the cornerstone of a
-          brighter future. Our mission is to empower students, teachers, and
+          At HigherFeats Africa, we believe that education is the cornerstone of
+          a brighter future. Our mission is to empower students, teachers, and
           educational institutions with the tools, resources, and support they
           need to succeed. Whether you’re looking for top-notch tutoring,
           comprehensive exam preparation, professional training, or quality

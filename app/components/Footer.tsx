@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 lg:mt-24">
           <p className="text-base font-mulish text-[#7c7681]">
-            Copyright © 2025 HigherFeats NG. All rights reserved.
+            Copyright © 2025 HigherFeats Africa. All rights reserved.
           </p>
         </div>
       </div>

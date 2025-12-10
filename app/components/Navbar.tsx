@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <header
       className={`navbar fixed top-0 left-0 w-full ${
-        showDropdown ? "h-screen" : "h-16"
+        showDropdown ? "h-[50%] md:h-[35%]" : "h-16"
       } ${
         showDropdown ? "" : "flex"
       } justify-center items-center text-center bg-[#ecf0f1] z-9999 transition-all duration-300 ease-in-out`}
@@ -38,7 +38,11 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="text-lg cursor-pointer">Educators Dialogue</li>
+          <li className="text-lg cursor-pointer">
+            <Link className="" href="/educators-dialogue">
+              Educators Dialogue
+            </Link>
+          </li>
           <li className="text-lg cursor-pointer">Contact</li>
         </ul>
         {showDropdown ? (
@@ -77,7 +81,9 @@ const Navbar = () => {
             onClick={() => setShowDropdown(!showDropdown)}
             className="text-lg cursor-pointer"
           >
-            Educators Dialogue
+            <Link className="" href="/educators-dialogue">
+              Educators Dialogue
+            </Link>
           </li>
           <li
             onClick={() => setShowDropdown(!showDropdown)}

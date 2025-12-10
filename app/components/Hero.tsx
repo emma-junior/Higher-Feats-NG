@@ -1,36 +1,36 @@
-"use client";
+// "use client";
 
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/all";
-import { ScrollToPlugin } from "gsap/all";
+// import gsap from "gsap";
+// import { useGSAP } from "@gsap/react";
+// import { ScrollTrigger } from "gsap/all";
+// import { ScrollToPlugin } from "gsap/all";
 
-gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(ScrollToPlugin);
+// gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollToPlugin);
 
 const Hero = () => {
-  useGSAP(() => {
-    let vid = document.querySelector("video");
+  // useGSAP(() => {
+  //   let vid = document.querySelector("video");
 
-    let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".video-container",
-        scrub: true,
-        pin: false,
-      },
-    });
-    tl.from(vid, {
-      scaleY: 1.4,
-      transformOrigin: "50% 50%",
-      yPercent: -30,
-      ease: "none",
-    }).to(vid, {
-      transformOrigin: "50% 50%",
-      scaleY: 1.4,
-      yPercent: 30,
-      ease: "none",
-    });
-  });
+  //   let tl = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: ".video-container",
+  //       scrub: true,
+  //       pin: false,
+  //     },
+  //   });
+  //   tl.from(vid, {
+  //     scaleY: 1.4,
+  //     transformOrigin: "50% 50%",
+  //     yPercent: -30,
+  //     ease: "none",
+  //   }).to(vid, {
+  //     transformOrigin: "50% 50%",
+  //     scaleY: 1.4,
+  //     yPercent: 30,
+  //     ease: "none",
+  //   });
+  // });
 
   return (
     <div className="  w-full">
