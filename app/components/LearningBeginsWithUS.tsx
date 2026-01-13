@@ -1,6 +1,6 @@
 const LearningBeginsWithUS = () => {
   return (
-    <div className="w-[85%] lg:w-[70%] md:flex justify-between">
+    <div className="w-[90%] md:w-[85%] lg:w-[70%] md:flex justify-between">
       <h1 className=" w-[90%] md:w-[30%] lg:w-[40%] font-playfair text-primary-color text-4xl md:text-5xl lg:text-6xl leading-12 md:leading-16 mb-5">
         Learning Begins With Us
       </h1>
@@ -21,7 +21,7 @@ const LearningBeginsWithUS = () => {
           equipped with the knowledge and real-world skills that take them way
           ahead in the industry they may serve.
         </p>
-        <button className="bg-primary-color mt-5 py-3 px-5 md:py-4 md:px-7 lg:py-5 lg:px-9 text-white text-xl font-mulish font-semibold rounded-xl">
+        <button className="bg-primary-color mt-5 py-2.5 px-5 md:py-4 md:px-7 lg:py-5 lg:px-9 text-white text-lg md:text-xl font-mulish font-semibold rounded-xl">
           Know More About Us
         </button>
       </div>

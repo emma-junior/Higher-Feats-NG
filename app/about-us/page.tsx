@@ -3,7 +3,7 @@ import { aboutus, aboutusType } from "../data/data";
 export default function About() {
   return (
     <section className="flex flex-col items-center py-20 space-y-20 md:py-28 md:space-y-28">
-      <div className="w-[85%]">
+      <div className="w-[90%] md:w-[85%]">
         <>
           <div className="w-full md:w-[60%] lg:w-[37%]">
             <h2 className="font-playfair text-4xl text-primary-color">
@@ -23,7 +23,7 @@ export default function About() {
         </>
       </div>
       <div className="py-24 w-full bg-[#f1f3f4] flex justify-center">
-        <div className="w-[85%] lg:flex lg:items-stretch">
+        <div className="w-[90%]  md:w-[85%] lg:flex lg:items-stretch">
           <div className="lg:w-[50%] grid grid-cols-1 md:grid-cols-2">
             {aboutus.map((about: aboutusType) => (
               <div

@@ -23,7 +23,7 @@ const curriculumCard = [
 
 const CurriculumOverview = () => {
   return (
-    <div className="w-[85%]">
+    <div className="w-[90%] md:w-[85%]">
       <div className="w-full lg:w-[70%] space-y-5">
         <h2 className="font-playfair text-primary-color text-4xl md:text-5xl lg:text-6xl leading-12 md:leading-16">
           Curriculum Overview

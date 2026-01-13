@@ -22,7 +22,7 @@ const EducatorsDialogue = () => {
           src="/assets/educators-conference.jpg"
           className="w-full h-full absolute top-0 left-0 object-cover"
         ></img>
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/40 md:bg-black/60"></div>
       </div>
 
       <div className="absolute inset-0 flex flex-col top-[60%] lg:top-[65%] left-[7%] w-[85%]">
@@ -41,7 +41,7 @@ const EducatorsDialogue = () => {
       </div>
       <div className="py-20 space-y-20 md:py-28 md:space-y-28">
         <div>
-          <div className="w-[85%] xl:flex justify-between mx-auto mb-7">
+          <div className="w-[90%] md:w-[85%] xl:flex justify-between mx-auto mb-7">
             <h2 className="flex text-4xl md:text-5xl font-playfair text-primary-color items-center ">
               Upcoming Conference
             </h2>
@@ -55,7 +55,7 @@ const EducatorsDialogue = () => {
           </div>
           <MarqueeImgSlider eventImages={eventImages} />
         </div>
-        <div className="w-[85%] xl:flex justify-between mx-auto">
+        <div className="w-[90%] md:w-[85%] xl:flex justify-between mx-auto">
           <div className="w-full xl:w-[50%]">
             <h2 className="text-4xl text-primary-dark font-playfair mb-4">
               Why Attend?
