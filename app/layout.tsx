@@ -5,6 +5,7 @@ import ScrollNavHandler from "./hooks/ScrollNavHandler";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { ReactLenis } from "./utils/lenis";
+import ToastProvider from "./components/ToastProvider";
 
 const mulish = Mulish({
   variable: "--font-mulish",
@@ -34,6 +35,7 @@ export default function RootLayout({
           <Navbar />
           <div className="mt-16">{children}</div>
           <Footer />
+          <ToastProvider />
         </body>
       </ReactLenis>
     </html>

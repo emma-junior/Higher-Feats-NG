@@ -2,7 +2,7 @@ import { aboutus, aboutusType } from "../data/data";
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center py-20 space-y-20 md:py-28 md:space-y-28">
+    <section className="flex flex-col items-center py-10 space-y-20 md:py-28 md:space-y-28">
       <div className="w-[90%] md:w-[85%]">
         <>
           <div className="w-full md:w-[60%] lg:w-[37%]">

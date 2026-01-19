@@ -43,7 +43,11 @@ const Navbar = () => {
               Educators Dialogue
             </Link>
           </li>
-          <li className="text-lg cursor-pointer">Contact</li>
+          <li className="text-lg cursor-pointer">
+            <Link className="" href="/contact-us">
+              Contact
+            </Link>
+          </li>
         </ul>
         {showDropdown ? (
           <LiaTimesSolid
@@ -89,7 +93,9 @@ const Navbar = () => {
             onClick={() => setShowDropdown(!showDropdown)}
             className="text-lg cursor-pointer"
           >
-            Contact
+            <Link className="" href="/contact-us">
+              Contact
+            </Link>
           </li>
         </ul>
       )}
