@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ConnectWith = () => {
   return (
     <div className="w-full flex justify-center bg-[#f1f3f4] py-20 md:py-28">
@@ -7,13 +9,18 @@ const ConnectWith = () => {
             Connect with
           </h1>
           <p className=" mt-2 md:mt-5 font-mulish text-lg text-primary-dark">
-            #BeauvoirBears #WeAreBeauvoir
+            #higherfeatsAfrica
           </p>
         </div>
         <>
-          <button className="bg-primary-color py-3 px-5 md:py-4 md:px-7 lg:py-5 lg:px-9 text-white text-xl font-mulish font-bold rounded-xl">
-            Follow Us
-          </button>
+          <Link
+            className=""
+            href="https://www.instagram.com/higherfeatsafrica?igsh=MWR6a2xoMmRvNG1heg=="
+          >
+            <button className="bg-primary-color py-3 px-5 md:py-4 md:px-7 lg:py-5 lg:px-9 text-white text-xl font-mulish font-bold rounded-xl hover:shadow-lg hover:opacity-90 cursor-pointer">
+              Follow Us
+            </button>
+          </Link>
         </>
       </div>
     </div>

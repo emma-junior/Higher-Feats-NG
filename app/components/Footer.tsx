@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="w-full md:w-[60%] lg:w-[30%] mx-auto lg:mx-0">
             <div className="w-48 h-auto mx-auto">
               <img
-                src="/assets/logo-one.png"
+                src="/assets/new-logo.png"
                 alt="Picture of the author"
                 className="w-full h-full"
               />
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 lg:mt-24">
           <p className="text-base font-mulish text-[#7c7681]">
-            Copyright © 2025 HigherFeats Africa. All rights reserved.
+            Copyright © 2026 HigherFeats Africa. All rights reserved.
           </p>
         </div>
       </div>

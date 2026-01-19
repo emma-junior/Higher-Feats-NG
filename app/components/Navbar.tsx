@@ -19,11 +19,13 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-[85%]">
         <div className="w-28 h-auto">
-          <img
-            src="/assets/logo.png"
-            alt="Picture of the author"
-            className="w-full h-full"
-          />
+          <Link className="" href="/">
+            <img
+              src="/assets/logo.png"
+              alt="Picture of the author"
+              className="w-full h-full"
+            />
+          </Link>
         </div>
         <ul
           className={`hidden lg:flex space-x-10 font-mulish text-primary-dark`}

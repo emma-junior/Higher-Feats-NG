@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const LearningBeginsWithUS = () => {
   return (
     <div className="w-[90%] md:w-[85%] lg:w-[70%] md:flex justify-between">
@@ -21,9 +23,11 @@ const LearningBeginsWithUS = () => {
           equipped with the knowledge and real-world skills that take them way
           ahead in the industry they may serve.
         </p>
-        <button className="bg-primary-color mt-5 py-2.5 px-5 md:py-4 md:px-7 lg:py-5 lg:px-9 text-white text-lg md:text-xl font-mulish font-semibold rounded-xl">
-          Know More About Us
-        </button>
+        <Link className="" href="/about-us">
+          <button className="bg-primary-color mt-5 py-2.5 px-5 md:py-4 md:px-7 lg:py-5 lg:px-9 text-white text-lg md:text-xl font-mulish font-semibold rounded-xl hover:shadow-lg hover:opacity-90 cursor-pointer">
+            Know More About Us
+          </button>
+        </Link>
       </div>
     </div>
   );

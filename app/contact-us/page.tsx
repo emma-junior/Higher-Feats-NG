@@ -46,7 +46,7 @@ const Contact = () => {
 
       // handle success
       if (response.ok) {
-        toast.success("Email Sent Successfully!");
+        toast.success("Message Sent Successfully!");
         setFormData({
           email: "",
           message: "",
