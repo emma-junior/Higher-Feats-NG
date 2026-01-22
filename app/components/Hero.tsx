@@ -15,12 +15,13 @@ const Hero = () => {
 
       <div className="absolute inset-0 flex flex-col top-[60%] lg:top-[65%] left-[7%] w-[80%] md:w-[50%] lg:w-[40%]">
         <h1 className="text-white text-2xl md:text-4xl font-bold font-mulish">
-          Business consulting, with a difference.
+          Developing Africa’s Human Capital for Global Excellence.
         </h1>
         <p className="font-mulish text-white mt-4 text-base">
-          Whether you’re an international corporation or a small startup, our
-          agile approach to problem-solving and strategic planning will help you
-          to scale new heights and shape change
+          We deliver world-class training and capacity-building programs for
+          individuals, teams, and organizations—equipping Africa’s workforce for
+          leadership, innovation, and future relevant skills needed to thrive in
+          today’s evolving world of work.
         </p>
       </div>
     </div>

@@ -16,6 +16,8 @@ const ConnectWith = () => {
           <Link
             className=""
             href="https://www.instagram.com/higherfeatsafrica?igsh=MWR6a2xoMmRvNG1heg=="
+            target="_blank"
+            rel="noreferrer"
           >
             <button className="bg-primary-color py-3 px-5 md:py-4 md:px-7 lg:py-5 lg:px-9 text-white text-xl font-mulish font-bold rounded-xl hover:shadow-lg hover:opacity-90 cursor-pointer">
               Follow Us

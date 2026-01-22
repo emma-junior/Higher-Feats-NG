@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="w-28 h-auto">
           <Link className="" href="/">
             <img
-              src="/assets/logo.png"
+              src="/assets/new-logo-black.png"
               alt="Picture of the author"
               className="w-full h-full"
             />

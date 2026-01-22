@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="bg-black text-white flex justify-center py-20">
@@ -39,10 +41,27 @@ const Footer = () => {
             <div className="font-mulish">
               <h4 className="text-lg font-bold">Stay In Touch</h4>
               <ul className="mt-2 lg:mt-5 space-y-1.5">
-                <li className="text-base">Facebook</li>
-                <li className="text-base">LinkedIn</li>
-                <li className="text-base">Instagram</li>
-                <li className="text-base">Twitter</li>
+                <li className="text-base">
+                  <Link
+                    className=""
+                    href="https://www.facebook.com/profile.php?id=61586752990500"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Facebook
+                  </Link>
+                </li>
+                {/* <li className="text-base">LinkedIn</li> */}
+                <li className="text-base">
+                  <Link
+                    className=""
+                    href="https://www.instagram.com/higherfeatsafrica?igsh=MWR6a2xoMmRvNG1heg=="
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Instagram
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
