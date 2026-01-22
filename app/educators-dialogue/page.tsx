@@ -34,7 +34,7 @@ const EducatorsDialogue = () => {
           <p className="font-mulish text-white mt-2 md:mt-4 text-sm md:text-xl">
             Bringing Together Education Stakeholders to Shape the Future
           </p>
-          <button className="bg-primary-color py-2 px-4 md:py-3 md:px-5 text-white text-base font-mulish font-bold rounded-lg mt-6 xl:mt-0">
+          <button className="bg-primary-color py-2 px-4 md:py-3 md:px-5 text-white text-base font-mulish font-bold rounded-lg mt-6 xl:mt-0 hover:shadow-lg hover:opacity-90 cursor-pointer">
             Register Now
           </button>
         </div>
@@ -119,7 +119,7 @@ const EducatorsDialogue = () => {
                 services.
               </li>
             </ul>
-            <button className="mt-5 bg-primary-color py-2 px-4 text-white text-base font-mulish font-bold rounded-lg">
+            <button className="mt-5 bg-primary-color py-2 px-4 text-white text-base font-mulish font-bold rounded-lg hover:shadow-lg hover:opacity-90 cursor-pointer">
               Register Now
             </button>
           </div>

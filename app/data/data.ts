@@ -57,7 +57,7 @@ export const aboutus = [
     serialNum: "02",
     topic: "Our values",
     content:
-      "HigherFeats NG was founded with a simple yet powerful vision: to transform education through innovative solutions and unwavering commitment. We understand that education is the key to unlocking potential and creating opportunities for individuals and communities alike.",
+      "HigherFeats Africa was founded with a simple yet powerful vision: to transform education through innovative solutions and unwavering commitment. We understand that education is the key to unlocking potential and creating opportunities for individuals and communities alike.",
   },
   {
     serialNum: "03",
