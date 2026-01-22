@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/40 md:bg-black/60"></div>
       </div>
 
-      <div className="absolute inset-0 flex flex-col top-[60%] lg:top-[65%] left-[7%] w-[80%] md:w-[50%] lg:w-[40%]">
+      <div className="absolute inset-0 flex flex-col top-[50%] md:top-[60%] lg:top-[65%] left-[7%] w-[80%] md:w-[50%] lg:w-[40%]">
         <h1 className="text-white text-2xl md:text-4xl font-bold font-mulish">
           Developing Africa’s Human Capital for Global Excellence.
         </h1>
