@@ -1,5 +1,6 @@
 import MarqueeImgSlider from "../components/MarqueeImgSlider";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Link from "next/link";
 
 const EducatorsDialogue = () => {
   const eventImages = [
@@ -34,9 +35,16 @@ const EducatorsDialogue = () => {
           <p className="font-mulish text-white mt-2 md:mt-4 text-sm md:text-xl">
             Bringing Together Education Stakeholders to Shape the Future
           </p>
-          <button className="bg-primary-color py-2 px-4 md:py-3 md:px-5 text-white text-base font-mulish font-bold rounded-lg mt-6 xl:mt-0 hover:shadow-lg hover:opacity-90 cursor-pointer">
-            Register Now
-          </button>
+          <Link
+            className=""
+            href="https://forms.gle/8RJTBS41eQcz3E196"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="bg-primary-color py-2 px-4 md:py-3 md:px-5 text-white text-base font-mulish font-bold rounded-lg mt-6 xl:mt-0 hover:shadow-lg hover:opacity-90 cursor-pointer">
+              Register Now
+            </button>
+          </Link>
         </div>
       </div>
       <div className="py-20 space-y-20 md:py-28 md:space-y-28">
@@ -119,9 +127,16 @@ const EducatorsDialogue = () => {
                 services.
               </li>
             </ul>
-            <button className="mt-5 bg-primary-color py-2 px-4 text-white text-base font-mulish font-bold rounded-lg hover:shadow-lg hover:opacity-90 cursor-pointer">
-              Register Now
-            </button>
+            <Link
+              className=""
+              href="https://forms.gle/8RJTBS41eQcz3E196"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="mt-5 bg-primary-color py-2 px-4 text-white text-base font-mulish font-bold rounded-lg hover:shadow-lg hover:opacity-90 cursor-pointer">
+                Register Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>

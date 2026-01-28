@@ -2,22 +2,22 @@ import CurriculumOverviewCard from "./CurriculumOverviewCard";
 
 const curriculumCard = [
   {
+    topic: "Human Capacity Building",
+    content:
+      "Structured training programs that develop skills, leadership, and professional competence for individuals, teams, and organizations seeking sustainable growth and impact.",
+    pic: "capacity-training.jpg",
+  },
+  {
+    topic: "Educational Consultancy",
+    content:
+      "Professional advisory services supporting institutions and organizations in curriculum design, training strategy, and educational program development.",
+    pic: "consultant.jpg",
+  },
+  {
     topic: "Tutoring",
     content:
       "Personalized tutoring for kindergarten, primary, and secondary students. Tailored lessons to meet individual learning needs.",
     pic: "tutoring.jpg",
-  },
-  {
-    topic: "Exam Preparation",
-    content:
-      "Comprehensive preparation programs for critical exams. Expert guidance and practice materials. Strategies to boost confidence and performance.",
-    pic: "exam-prep.jpg",
-  },
-  {
-    topic: "Comprehensive preparation programs for critical exams.",
-    content:
-      "Professional development workshops and seminars. Innovative teaching strategies and classroom management techniques.",
-    pic: "female-teacher.webp",
   },
 ];
 
