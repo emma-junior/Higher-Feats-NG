@@ -13,36 +13,52 @@ export interface aboutusType {
 export const faq = [
   {
     id: 1,
-    question: "Where does learning take place?",
+    question: "Who can participate in Higherfeats Africa’s training programs?",
     answer:
-      "Online. Physically classes are available on request at a higher rate depending on location",
+      "Our training programs are designed for individuals, professionals, educators, organizations, institutions, and corporate teams seeking capacity development, leadership growth, and skills enhancement.",
   },
   {
     id: 2,
-    question: "Can I request a change of tutor if I don't want them?",
+    question: "Are your training programs delivered online or in person?",
     answer:
-      "Yes, after 1 month of trial except in cases of gross misconduct then they are changed immediately",
+      "Our programs are delivered through flexible formats including physical (in-person), virtual (online), and hybrid learning models, depending on the nature of the program.",
   },
   {
     id: 3,
-    question: "How is payment made?",
-    answer: "Payment is calculated and paid monthly",
+    question:
+      "Do you offer customized training for organizations and institutions?",
+    answer:
+      "Yes. We design and deliver customized training and capacity-building solutions tailored to the specific needs, goals, and context of organizations and institutions.",
   },
   {
     id: 4,
-    question: "Are your tutors qualified teachers?",
+    question: "Who facilitates your training programs?",
     answer:
-      "Our tutors are qualified teachers who have undergone training in pedagogy.",
+      "Our programs are facilitated by experienced educators, industry professionals, and subject-matter experts with proven expertise in training, leadership development, and organizational capacity building.",
   },
   {
     id: 5,
-    question: "Can I register more than one child?",
-    answer: "Payment is calculated and paid monthly",
+    question: "How do I register for a training program or event?",
+    answer:
+      "Registration for our programs and events is completed online through the relevant registration link on our website. Registered participants receive confirmation and further details via email.",
   },
   {
     id: 6,
-    question: "How much is the service?",
-    answer: "N30,000 a month for two contacts weekly.",
+    question: "Are certificates provided after training programs?",
+    answer:
+      "Yes. Participants receive certificates of participation or completion for eligible programs, subject to attendance and program requirements.",
+  },
+  {
+    id: 7,
+    question: "How are training fees structured?",
+    answer:
+      "Training fees vary depending on the program, delivery format, and scope. Detailed fee information is provided on each program page or upon request for customized training.",
+  },
+  {
+    id: 8,
+    question: "How can organizations partner with Higherfeats Africa?",
+    answer:
+      "Organizations and institutions can partner with us by contacting us through the website or sending a formal inquiry via email. Our team will respond to discuss partnership opportunities.",
   },
 ];
 
